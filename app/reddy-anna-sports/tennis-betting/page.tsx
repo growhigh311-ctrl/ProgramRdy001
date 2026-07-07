@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Tennis Betting Online | Live Odds & ATP/WTA Markets \u2014 Reddy Anna",
+  description:
+    "Bet on tennis live at Reddy Anna Book. ATP, WTA, Grand Slams with competitive live match odds, set betting & instant UPI withdrawals.",
+  alternates: { canonical: "https://www.reddyreal.guru/reddy-anna-sports/tennis-betting" },
+  openGraph: {
+    title: "Tennis Betting Online \u2014 Reddy Anna Book",
+    description: "Live tennis betting on ATP, WTA & Grand Slams at Reddy Anna Book.",
+    url: "https://www.reddyreal.guru/reddy-anna-sports/tennis-betting",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Tennis Betting Online \u2014 Reddy Anna Book", description: "Live tennis betting on ATP, WTA & Grand Slams at Reddy Anna." },
+};
 
 export default function TennisBettingPage() {
   return (

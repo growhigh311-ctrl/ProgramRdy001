@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Reddy Anna Book",
+  description:
+    "Read Reddy Anna Book's Privacy Policy. Learn how we protect your data, handle payments, and secure your personal information on reddyreal.guru.",
+  alternates: {
+    canonical: "https://www.reddyreal.guru/privacy-policy",
+  },
+  robots: { index: false, follow: false },
+  openGraph: {
+    title: "Privacy Policy | Reddy Anna Book",
+    description: "Privacy Policy for Reddy Anna Book — reddyreal.guru.",
+    url: "https://www.reddyreal.guru/privacy-policy",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+};
 
 export default function PrivacyPolicyPage() {
   return (
@@ -24,7 +42,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="text-gray-300 text-sm md:text-base leading-relaxed flex flex-col gap-4">
               <p>
-                At Reddy Anna Book, accessible from reddygreenbook.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Reddy Anna Book and how we use it.
+                At Reddy Anna Book, accessible from reddyreal.guru, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Reddy Anna Book and how we use it.
               </p>
               <h3 className="text-white font-extrabold text-base md:text-lg mt-2">1. Log Files</h3>
               <p>

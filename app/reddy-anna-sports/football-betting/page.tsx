@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Football Betting Online | Live Football Odds \u2014 Reddy Anna Book",
+  description:
+    "Bet on football live at Reddy Anna Book. UEFA Champions League, EPL, FIFA & more with competitive live odds, high limits & instant UPI withdrawals.",
+  alternates: { canonical: "https://www.reddyreal.guru/reddy-anna-sports/football-betting" },
+  openGraph: {
+    title: "Football Betting Online | Live Odds \u2014 Reddy Anna Book",
+    description: "Live football betting on UEFA, EPL, FIFA & more at Reddy Anna Book.",
+    url: "https://www.reddyreal.guru/reddy-anna-sports/football-betting",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Football Betting Online \u2014 Reddy Anna Book", description: "Live football betting on UEFA, EPL & more at Reddy Anna." },
+};
 
 export default function FootballBettingPage() {
   return (

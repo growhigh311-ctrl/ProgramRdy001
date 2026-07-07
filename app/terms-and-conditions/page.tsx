@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions | Reddy Anna Book",
+  description:
+    "Read the Terms & Conditions for Reddy Anna Book at reddyreal.guru. Rules, regulations, and guidelines for using our online betting platform.",
+  alternates: {
+    canonical: "https://www.reddyreal.guru/terms-and-conditions",
+  },
+  robots: { index: false, follow: false },
+  openGraph: {
+    title: "Terms & Conditions | Reddy Anna Book",
+    description: "Terms & Conditions for Reddy Anna Book — reddyreal.guru.",
+    url: "https://www.reddyreal.guru/terms-and-conditions",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+};
 
 export default function TermsAndConditionsPage() {
   return (
@@ -27,7 +45,7 @@ export default function TermsAndConditionsPage() {
                 Welcome to Reddy Anna Book!
               </p>
               <p>
-                These terms and conditions outline the rules and regulations for the use of Reddy Anna Book's Website, located at reddygreenbook.in.
+                These terms and conditions outline the rules and regulations for the use of Reddy Anna Book's Website, located at reddyreal.guru.
               </p>
               <p>
                 By accessing this website we assume you accept these terms and conditions. Do not continue to use Reddy Anna Book if you do not agree to take all of the terms and conditions stated on this page.

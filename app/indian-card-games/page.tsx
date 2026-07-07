@@ -1,6 +1,29 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Indian Card Games Online | Teen Patti, Andar Bahar Live — Reddy Anna",
+  description:
+    "Play Indian card games live online at Reddy Anna Book. Teen Patti, Andar Bahar, Muflis, Dragon Tiger with real dealers, instant UPI deposits & big payouts.",
+  alternates: {
+    canonical: "https://www.reddyreal.guru/indian-card-games",
+  },
+  openGraph: {
+    title: "Indian Card Games Online | Teen Patti & Andar Bahar — Reddy Anna Book",
+    description:
+      "Play Indian card games live with real dealers at Reddy Anna Book. Teen Patti, Andar Bahar, Muflis, Dragon Tiger & more.",
+    url: "https://www.reddyreal.guru/indian-card-games",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Indian Card Games Online — Reddy Anna Book",
+    description: "Play Teen Patti, Andar Bahar & more live at Reddy Anna Book.",
+  },
+};
 
 export default function IndianCardGamesPage() {
   return (

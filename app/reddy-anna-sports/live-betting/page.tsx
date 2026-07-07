@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Live Betting Online | Real-Time Odds \u2014 Reddy Anna Book",
+  description:
+    "Place live bets in real-time at Reddy Anna Book. Live cricket, football, tennis & horse racing with instant odds updates & UPI withdrawals.",
+  alternates: { canonical: "https://www.reddyreal.guru/reddy-anna-sports/live-betting" },
+  openGraph: {
+    title: "Live Betting Online | Real-Time Odds \u2014 Reddy Anna Book",
+    description: "Real-time live betting on cricket, football, tennis & horse racing at Reddy Anna.",
+    url: "https://www.reddyreal.guru/reddy-anna-sports/live-betting",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Live Betting Online \u2014 Reddy Anna Book", description: "Real-time live betting at Reddy Anna Book." },
+};
 
 export default function LiveBettingPage() {
   return (

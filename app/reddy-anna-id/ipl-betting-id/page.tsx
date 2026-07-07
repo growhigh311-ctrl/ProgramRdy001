@@ -1,6 +1,29 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "IPL Betting ID 2026 | Official Reddy Anna IPL Betting Account",
+  description:
+    "Get your verified Reddy Anna IPL Betting ID for IPL 2026. Live ball-by-ball odds, session betting, daily promos & instant UPI withdrawals in 2-4 hours.",
+  alternates: {
+    canonical: "https://www.reddyreal.guru/reddy-anna-id/ipl-betting-id",
+  },
+  openGraph: {
+    title: "IPL Betting ID 2026 | Official Reddy Anna IPL Account",
+    description:
+      "Verified Reddy Anna IPL Betting ID — live ball-by-ball odds, session markets, daily IPL promos & instant withdrawals.",
+    url: "https://www.reddyreal.guru/reddy-anna-id/ipl-betting-id",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IPL Betting ID 2026 | Reddy Anna IPL Betting Account",
+    description: "Get your Reddy Anna IPL Betting ID for live ball-by-ball betting.",
+  },
+};
 
 export default function IplBettingIdPage() {
   return (

@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Horse Racing Betting | Live Odds & Markets \u2014 Reddy Anna Book",
+  description:
+    "Bet on horse racing live at Reddy Anna Book. UK, Irish, Australian tracks with competitive live odds & instant UPI withdrawals.",
+  alternates: { canonical: "https://www.reddyreal.guru/reddy-anna-sports/horse-racing" },
+  openGraph: {
+    title: "Horse Racing Betting \u2014 Reddy Anna Book",
+    description: "Live horse racing betting on UK, Irish & Australian tracks at Reddy Anna.",
+    url: "https://www.reddyreal.guru/reddy-anna-sports/horse-racing",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Horse Racing Betting \u2014 Reddy Anna Book", description: "Live horse racing betting at Reddy Anna Book." },
+};
 
 export default function HorseRacingPage() {
   return (
