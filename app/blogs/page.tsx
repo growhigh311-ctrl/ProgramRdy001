@@ -3,6 +3,7 @@ import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Reddy Anna Blogs | Cricket Betting Tips & Sports Guides",
@@ -31,7 +32,7 @@ export default function BlogsPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
       <div className="w-full flex flex-col lg:flex-row gap-8">
-        
+
         {/* Left Sidebar */}
         <div className="hidden lg:block lg:w-1/4">
           <Sidebar />
@@ -39,7 +40,7 @@ export default function BlogsPage() {
 
         {/* Main Content */}
         <div className="w-full lg:w-3/4 flex flex-col gap-8 text-left">
-          
+
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
@@ -54,6 +55,13 @@ export default function BlogsPage() {
           <section className="w-full flex flex-col gap-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
+                {
+                  title: "Olympics 2028: LA Games and Cricket's Big Return",
+                  date: "July 14, 2026",
+                  desc: "The 2028 Summer Olympics in Los Angeles marks cricket's historic return after 128 years. Read about the T20 format, qualification process, and what it means for Indian fans.",
+                  href: "/olympics-2028-cricket/",
+                  btnText: "Read Full Article"
+                },
                 {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
@@ -74,30 +82,56 @@ export default function BlogsPage() {
                   date: "May 10, 2026",
                   desc: "An extensive review of local live dealer card games including Teen Patti, Andar Bahar, Muflis, and Dragon Tiger. Find out about RNG fair-play mechanisms."
                 }
-              ].map((blog, idx) => (
-                <div
-                  key={idx}
-                  className="bg-[#0c1322] border border-[#00C853]/10 hover:border-[#00C853]/25 rounded-2xl p-5 md:p-6 shadow-md hover:scale-[1.002] transition-all flex flex-col gap-3 group"
-                >
-                  <div className="text-xs text-gray-400 font-bold bg-[#05080f] self-start px-2.5 py-1 rounded-md border border-[#00C853]/5">
-                    📅 {blog.date}
-                  </div>
-                  <h4 className="text-white font-extrabold text-base md:text-lg tracking-wide group-hover:text-amber-300 transition-colors">
-                    {blog.title}
-                  </h4>
-                  <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
-                    {blog.desc}
-                  </p>
-                  <a
-                    href={CONFIG.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
+              ].map((blog, idx) => {
+                const isCustomLink = !!blog.href;
+                const linkHref = blog.href || CONFIG.whatsappUrl;
+                const target = isCustomLink ? undefined : "_blank";
+                const rel = isCustomLink ? undefined : "noopener noreferrer";
+                const linkText = blog.btnText || "Read Full Article";
+
+                return (
+                  <div
+                    key={idx}
+                    className="bg-[#0c1322] border border-[#00C853]/10 hover:border-[#00C853]/25 rounded-2xl p-5 md:p-6 shadow-md hover:scale-[1.002] transition-all flex flex-col gap-3 group"
                   >
-                    Read Full Article
-                  </a>
-                </div>
-              ))}
+                    <div className="text-xs text-gray-400 font-bold bg-[#05080f] self-start px-2.5 py-1 rounded-md border border-[#00C853]/5">
+                      📅 {blog.date}
+                    </div>
+                    {isCustomLink ? (
+                      <Link
+                        href={linkHref}
+                        className="text-white font-extrabold text-base md:text-lg tracking-wide group-hover:text-amber-300 transition-colors"
+                      >
+                        {blog.title}
+                      </Link>
+                    ) : (
+                      <h4 className="text-white font-extrabold text-base md:text-lg tracking-wide group-hover:text-amber-300 transition-colors">
+                        {blog.title}
+                      </h4>
+                    )}
+                    <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
+                      {blog.desc}
+                    </p>
+                    {isCustomLink ? (
+                      <Link
+                        href={linkHref}
+                        className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
+                      >
+                        {linkText}
+                      </Link>
+                    ) : (
+                      <a
+                        href={linkHref}
+                        target={target}
+                        rel={rel}
+                        className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
+                      >
+                        {linkText}
+                      </a>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </section>
 
