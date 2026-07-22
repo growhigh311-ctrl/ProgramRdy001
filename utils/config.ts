@@ -152,35 +152,35 @@ export const CONFIG = {
   faqs: [
     {
       question: "What is a Reddy Anna ID?",
-      answer: "A Reddy Anna ID is your verified personal account that gives you access to cricket betting, sports wagering, and live casino games on the Reddy Anna platform. It is created instantly via WhatsApp and is linked to your personal wallet for deposits and withdrawals."
+      answer: "A Reddy Anna ID is your personal betting account that grants you access to cricket betting lines, sports betting odds, and live casino games. Simply reply to the WhatsApp message and provide some basic information to create your free Reddy Anna betting ID."
     },
     {
       question: "How do I create a Reddy Anna ID?",
-      answer: "Visit reddyreal.guru, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
+      answer: "To create a Reddy Anna sports betting account, simply visit reddyreal.guru, click the WhatsApp button, and reply to our agent. You will get your own free Reddy Anna betting ID in under 60 seconds."
     },
     {
       question: "Is Reddy Anna safe and legitimate?",
-      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddyreal.guru is the only official Reddy Anna domain — always verify you are on the right site."
+      answer: "We have been operating since 2010 and serving sports bettors and live casino fans from India with secure banking solutions. All withdrawals and deposits are 100% safe and processed through Indian financial institutions. Always double-check that you are on reddyreal.guru when logging in to your Reddy Anna betting account."
     },
     {
       question: "What payment methods does Reddy Anna accept?",
-      answer: "We accept all major Indian payment methods: UPI (PhonePe, Google Pay, BHIM), Paytm, Paytm Wallet, Net Banking, NEFT, and IMPS. Deposits are instant. Withdrawals are processed within 2-4 hours."
+      answer: "We accept all major local payment methods, including UPI (Google Pay, BHIM, PhonePe), Paytm, Paytm wallet, Net Banking, NEFT, and IMPS. Deposits are instant, while withdrawals take 2-4 hours to clear."
     },
     {
-      question: "Can I bet on IPL using Reddy Anna?",
-      answer: "Absolutely. IPL betting is one of Reddy Anna's core offerings. We provide live, real-time odds on every IPL match with ball-by-ball markets, session betting, player performance bets, and full pre-match markets. Your Reddy Anna ID gives you instant access to all IPL 2026 markets."
+      question: "Can I bet on IPL with Reddy Anna?",
+      answer: "Of course! Reddy Anna is the best IPL betting site that offers live odds on every IPL match. You can bet on all IPL matches with your own Reddy Anna betting ID in real-time."
     },
     {
       question: "Does Reddy Anna offer casino games?",
-      answer: "Yes. reddyreal.guru offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
+      answer: "Yes, reddyreal.guru is one of India’s most popular live casino sites. You can enjoy Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, Slot machines, etc."
     },
     {
       question: "How can I contact Reddy Anna support?",
-      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddyreal.guru and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
+      answer: "You can contact our 24x7 customer support via WhatsApp to clear any doubts regarding your Reddy Anna betting account. Simply type a message and ask anything - our agents respond within seconds, even during live matches."
     },
     {
       question: "What is a Reddy Anna Demo ID?",
-      answer: "A Demo ID is a free practice account that lets you explore the Reddy Anna platform, understand how betting markets work, and place practice bets without using real money. Contact our agent via WhatsApp and request a Demo ID — it is completely free."
+      answer: "A Demo ID is a free practice betting account that allows you to get familiar with Reddy Anna and understand how real-time cricket betting works. Contact our support team on WhatsApp and ask for a free Demo ID."
     }
   ]
 };
