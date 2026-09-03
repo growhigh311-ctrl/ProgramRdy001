@@ -151,36 +151,44 @@ export const CONFIG = {
 
   faqs: [
     {
-      question: "What is a Reddy Anna ID?",
-      answer: "A Reddy Anna ID is your personal betting account that grants you access to cricket betting lines, sports betting odds, and live casino games. Simply reply to the WhatsApp message and provide some basic information to create your free Reddy Anna betting ID."
+      question: "What is Reddy Anna?",
+      answer: "Reddy Anna is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
     },
     {
-      question: "How do I create a Reddy Anna ID?",
-      answer: "To create a Reddy Anna sports betting account, simply visit reddyreal.guru, click the WhatsApp button, and reply to our agent. You will get your own free Reddy Anna betting ID in under 60 seconds."
+      question: "How does a Reddy Anna ID work?",
+      answer: "An account ID is generally used to identify a user account. Refer to Reddy Anna's current account instructions and terms for the exact process."
     },
     {
-      question: "Is Reddy Anna safe and legitimate?",
-      answer: "We have been operating since 2010 and serving sports bettors and live casino fans from India with secure banking solutions. All withdrawals and deposits are 100% safe and processed through Indian financial institutions. Always double-check that you are on reddyreal.guru when logging in to your Reddy Anna betting account."
+      question: "How can I access the Reddy Anna website?",
+      answer: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
     },
     {
-      question: "What payment methods does Reddy Anna accept?",
-      answer: "We accept all major local payment methods, including UPI (Google Pay, BHIM, PhonePe), Paytm, Paytm wallet, Net Banking, NEFT, and IMPS. Deposits are instant, while withdrawals take 2-4 hours to clear."
+      question: "What sports are available on Reddy Anna?",
+      answer: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
     },
     {
-      question: "Can I bet on IPL with Reddy Anna?",
-      answer: "Of course! Reddy Anna is the best IPL betting site that offers live odds on every IPL match. You can bet on all IPL matches with your own Reddy Anna betting ID in real-time."
+      question: "Does Reddy Anna provide live sports information?",
+      answer: "Check the site's current sports section for any live-event information and the terms that apply to its use."
     },
     {
-      question: "Does Reddy Anna offer casino games?",
-      answer: "Yes, reddyreal.guru is one of India’s most popular live casino sites. You can enjoy Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, Slot machines, etc."
+      question: "How can I get help with my Reddy Anna account?",
+      answer: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     },
     {
-      question: "How can I contact Reddy Anna support?",
-      answer: "You can contact our 24x7 customer support via WhatsApp to clear any doubts regarding your Reddy Anna betting account. Simply type a message and ask anything - our agents respond within seconds, even during live matches."
+      question: "What payment options are supported?",
+      answer: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     },
     {
-      question: "What is a Reddy Anna Demo ID?",
-      answer: "A Demo ID is a free practice betting account that allows you to get familiar with Reddy Anna and understand how real-time cricket betting works. Contact our support team on WhatsApp and ask for a free Demo ID."
+      question: "How can I check Reddy Anna login information?",
+      answer: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+    },
+    {
+      question: "What should I do if I have a problem with my account?",
+      answer: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
+    },
+    {
+      question: "Where can I find the latest Reddy Anna updates?",
+      answer: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
     }
   ]
 };
