@@ -56,6 +56,13 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "India Football Enters a Historic Phase",
+                  date: "September 4, 2026",
+                  desc: "Indian football is preparing for one of the most demanding international windows in recent memory, with the national team scheduled to face Panama, Brazil and Uruguay.",
+                  href: "/india-football-historic-friendlies/",
+                  btnText: "Read Full Article"
+                },
+                {
                   title: "Olympics 2028: LA Games and Cricket's Big Return",
                   date: "July 14, 2026",
                   desc: "The 2028 Summer Olympics in Los Angeles marks cricket's historic return after 128 years. Read about the T20 format, qualification process, and what it means for Indian fans.",
